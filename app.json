@@ -1,0 +1,37 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f4f5f5",
+    "navigationBarTitleText": "miniprogram-template",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "resolveAlias": {
+    "~/*": "/*"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json",
+  "pages": ["pages/home/index"],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "name": "packageA",
+      "pages": [
+        "pages/broken-network/index",
+        "pages/iconfot/index",
+        "pages/image/index",
+        "pages/nav-bar/index",
+        "pages/rich-text/index",
+        "pages/readme/index",
+        "pages/video/index",
+        "pages/virtuali-list/index"
+      ]
+    },
+    {
+      "root": "packageB",
+      "name": "packageB",
+      "pages": ["pages/swiper-guide-animation/index"]
+    }
+  ]
+}
